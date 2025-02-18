@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const { URL } = meta.env;
+const { URL } = import.meta.env;
 
 const responseArtists = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);

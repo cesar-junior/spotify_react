@@ -1,8 +1,8 @@
 import { MongoClient } from "mongodb";
+import "dotenv/config";
 
-const URI =
-  "mongodb+srv://fullstackjornada:qojI71xVU2aV8UKC@cluster0.v1qra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const { URI } = process.env;
 
 const client = new MongoClient(URI);
 
-export const db = client.db("spotifyAula");
+export const db = client.db("spotifyReact");

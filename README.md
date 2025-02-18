@@ -18,7 +18,7 @@ This project is a basic Spotify copy, implementing music streaming functionaliti
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/spotify-react.git
+   git clone https://github.com/cesar-junior/spotify-react.git
    ```
 2. Navigate to the project folder:
    ```sh
@@ -39,6 +39,13 @@ This project is a basic Spotify copy, implementing music streaming functionaliti
 1. Open the application.
 2. Browse and play songs.
 3. Enjoy a seamless music streaming experience.
+
+## ✨ Future Improvements
+
+- Restart the song time when switching to another track.
+- Adjust the number of displayed items based on screen size.
+- Play a random song when clicking on the artist's icon.
+- Integrate real-time lyrics display.
 
 ## 🤝 Contributing
 

@@ -17,5 +17,8 @@
     "url": "https://github.com/cesar-junior/spotify_react/issues"
   },
   "homepage": "https://github.com/cesar-junior/spotify_react#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }

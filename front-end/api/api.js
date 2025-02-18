@@ -1,7 +1,6 @@
 import axios from "axios";
-import "dotenv/config";
 
-const { URL } = process.env;
+const { URL } = meta.env;
 
 const responseArtists = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);
